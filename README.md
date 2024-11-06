@@ -23,9 +23,9 @@ HyDE's wallbash template for Obsidian.
   - or line to your `.bashrc` or `.bash_profile` file or similar rc files
 
 ```bash
-export OBSIDIAN_VAULT="${HOME}/Documents/Obsidian\ Vault/.obsidian/themes/Wallbash"
-git clone https://github.com/HyDE-Project/obsidian "${OBSIDIAN_VAULT:-${HOME}/Documents/Obsidian Vault}/.obsidian/themes/Wallbash/"
-cd "${OBSIDIAN_VAULT:-${HOME}/Documents/Obsidian Vault}/.obsidian/themes/Wallbash/"
+export OBSIDIAN_VAULT="${HOME}/Documents/Obsidian Vault/"
+git clone https://github.com/HyDE-Project/obsidian "${OBSIDIAN_VAULT}/.obsidian/themes/Wallbash/"
+cd "${OBSIDIAN_VAULT}/.obsidian/themes/Wallbash/"
 ```
 
 2. Now we need to have a copy of the `obsidian.dcol` file in the `~/.config/hyde/wallbash/Wall-Ways` directory.
