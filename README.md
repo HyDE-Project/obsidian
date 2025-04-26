@@ -35,7 +35,7 @@ cp ./obsidian.dcol ~/.config/hyde/wallbash/Wall-Ways/
 
 ```
 
-3. Run ` Hyde reload` to apply the changes.
+3. Run ` hydectl reload` to apply the changes.
 
 - This will generate the `theme.css` file.
 
@@ -49,7 +49,7 @@ cp ./obsidian.dcol ~/.config/hyde/wallbash/Wall-Ways/
 2. cd ./Wallbash
 3. git pull
 4. `cp ./obsidian.dcol ~/.config/hyde/wallbash/Wall-Ways/ `
-5. `Hyde reload`
+5. `hydectl reload`
 
 ## TODO
 
