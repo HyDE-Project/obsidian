@@ -71,12 +71,36 @@ def run_wallbash(wallpaper_path):
 def dcol_to_css(dcol_path, css_path):
     # Map dcol keys to Obsidian CSS variables
     DCOL_TO_CSS = {
+        # Primary backgrounds
         "dcol_pry1": "--background-primary",
-        "dcol_txt1": "--text-normal",
         "dcol_pry2": "--background-secondary",
         "dcol_pry3": "--background-secondary-alt",
         "dcol_pry4": "--background-modifier-border",
-        # Add more mappings as needed
+        # Text
+        "dcol_txt1": "--text-normal",
+        "dcol_txt2": "--text-muted",
+        "dcol_txt3": "--text-faint",
+        "dcol_txt4": "--text-accent",
+        # Accents and highlights
+        "dcol_acc1": "--interactive-accent",
+        "dcol_acc2": "--interactive-accent-hover",
+        "dcol_acc3": "--highlight-matched",
+        "dcol_acc4": "--highlight-active",
+        # UI elements
+        "dcol_ui1": "--divider-color",
+        "dcol_ui2": "--scrollbar-thumb-bg",
+        "dcol_ui3": "--scrollbar-thumb-hover-bg",
+        # Code blocks
+        "dcol_cod1": "--code-background",
+        "dcol_cod2": "--code-normal",
+        "dcol_cod3": "--code-comment",
+        "dcol_cod4": "--code-keyword",
+        "dcol_cod5": "--code-string",
+        "dcol_cod6": "--code-function",
+        # Borders and modifiers
+        "dcol_brd1": "--background-modifier-border",
+        "dcol_brd2": "--background-modifier-hover",
+        # ToDo: Add more as needed, based on .dcol output
     }
     values = {}
     with open(dcol_path) as f:
