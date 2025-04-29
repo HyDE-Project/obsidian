@@ -28,10 +28,10 @@ git clone https://github.com/HyDE-Project/obsidian "${OBSIDIAN_VAULT}/.obsidian/
 cd "${OBSIDIAN_VAULT}/.obsidian/themes/Wallbash/"
 ```
 
-2. Now we need to have a copy of the `obsidian.dcol` file in the `~/.config/hyde/wallbash/Wall-Ways` directory.
+2. Now we need to have a copy of the `obsidian.dcol` file in the `~/.config/hyde/wallbash/always` directory.
 
 ```bash
-cp ./obsidian.dcol ~/.config/hyde/wallbash/Wall-Ways/
+cp ./obsidian.dcol ~/.config/hyde/wallbash/always/
 
 ```
 
@@ -49,7 +49,7 @@ https://github.com/user-attachments/assets/43b47291-9469-40de-9cb7-8b8ed4eb781d
 
 > [!Note]
 > After cloning be sure to do step #2 
-> `cp ./obsidian.dcol ~/.config/hyde/wallbash/Wall-Ways/`
+> `cp ./obsidian.dcol ~/.config/hyde/wallbash/always/`
 >
 
 
@@ -58,7 +58,7 @@ https://github.com/user-attachments/assets/43b47291-9469-40de-9cb7-8b8ed4eb781d
 1. Navigate to your obsidian vault
 2. `cd ./.obsidian/themes/Wallbash/`
 3. git pull
-4. `cp ./obsidian.dcol ~/.config/hyde/wallbash/Wall-Ways/ `
+4. `cp ./obsidian.dcol ~/.config/hyde/wallbash/always/ `
 5. `hydectl reload`
 
 ## TODO
