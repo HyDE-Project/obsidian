@@ -43,6 +43,12 @@ cp ./obsidian.dcol ~/.config/hyde/wallbash/Wall-Ways/
    - ⚙Setting > Appearance️ > 📁 Open themes folder️ > Select Wallbash
      ![Preview Image](assets/apply.png)
 
+### Installation preview:
+
+https://github.com/user-attachments/assets/43b47291-9469-40de-9cb7-8b8ed4eb781d
+
+
+
 ## Updating:
 
 1. Navigate to your obsidian vault
