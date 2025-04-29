@@ -18,9 +18,8 @@ HyDE's wallbash template for Obsidian.
   however this is not always the case.
   Therefore, you may need to set the `OBSIDIAN_VAULT` environment variable to the correct path.
   This can be done by adding the following:
-  - setting it in ` ~/.config/hyde/hyde.conf` ` OBSIDIAN_VAULT=/path/to/your/obsidian/vault` (Recommended)
-  - or setting the env in ` hyprland.conf` ` env = OBSIDIAN_VAULT,/path/to/your/obsidian/vault`
-  - or line to your `.bashrc` or `.bash_profile` file or similar rc files
+  - or setting the env in ` userprefs.conf` ` env = OBSIDIAN_VAULT,/path/to/your/obsidian/vault`
+  - or line to your `.profile` ,` .zprofile` or `.bash_profile` file or similar rc files
 
 ```bash
 export OBSIDIAN_VAULT="${HOME}/Documents/Obsidian Vault/"
