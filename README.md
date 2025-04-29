@@ -45,8 +45,8 @@ cp ./obsidian.dcol ~/.config/hyde/wallbash/Wall-Ways/
 
 ## Updating:
 
-1. Navigate to you obsidian vault
-2. cd ./Wallbash
+1. Navigate to your obsidian vault
+2. `cd ./.obsidian/themes/Wallbash/`
 3. git pull
 4. `cp ./obsidian.dcol ~/.config/hyde/wallbash/Wall-Ways/ `
 5. `hydectl reload`
