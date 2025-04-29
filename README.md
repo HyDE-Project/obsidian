@@ -47,6 +47,10 @@ cp ./obsidian.dcol ~/.config/hyde/wallbash/Wall-Ways/
 
 https://github.com/user-attachments/assets/43b47291-9469-40de-9cb7-8b8ed4eb781d
 
+> [!Note]
+> After cloning be sure to do step #2 
+> `cp ./obsidian.dcol ~/.config/hyde/wallbash/Wall-Ways/`
+>
 
 
 ## Updating:
